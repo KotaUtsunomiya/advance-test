@@ -1,0 +1,33 @@
+.body {
+  position: relative;
+  height: 100vh;
+}
+
+.message-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.thanks-message {
+  margin: 50px auto;
+  font-size: 18px;
+}
+
+.toppage-btn {
+  border-radius: 6px;
+  margin: 32px auto 10px auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 170px;
+  display: block;
+  letter-spacing: 0.05em;
+  background: black;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+}

@@ -1,0 +1,156 @@
+.title {
+  font-size: 30px;
+  text-align: center;
+  color: black;
+  margin: 40px auto;
+}
+
+.form {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 70%;
+}
+
+.form-table {
+  margin-left: auto;
+  margin-right: auto;
+  width:100%;
+  border-collapse: separate;
+  border-spacing:20px 20px;
+  max-width: 900px;
+}
+
+.table-tr {
+  height: 100px;
+}
+.tr-gender {
+  height: 65px;
+}
+
+.table-th {
+  text-align: left;
+  width: 160px;
+}
+.th-opinion {
+  vertical-align: top;
+}
+
+.form-input {
+  border: 1px solid gray;
+  border-radius: 5px;
+  height: 50px;
+  width: 100%;
+  font-size: 18px;
+  box-sizing: border-box;
+}
+
+.post-mark {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 100%;
+  font-weight: bold;
+  text-align: right;
+}
+.form-postcode {
+  width: 90%;
+  margin-left: 20px;
+}
+
+
+.form-textarea {
+  border: 1px solid gray;
+  border-radius: 6px;
+  height: 216px;
+  flex: 1;
+  width: 100%;
+  font-size: 18px;
+  resize: none;
+  box-sizing: border-box;
+}
+
+.sample {
+  font-size: 18px;
+  color: rgb(160, 160, 160);
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.sample-postcode {
+  margin-left: 13%;
+}
+
+.radio-rabel {
+  padding-left: 65px;
+  padding-right: 20px;
+  font-size: 18px;
+  position: relative;
+  cursor: pointer;
+}
+.radio-rabel::before,
+.radio-rabel::after {
+  content: "";
+  display: block;
+  border-radius: 50%;
+  position: absolute;
+  transform: translateY(-50%);
+  top: 50%;
+}
+.radio-rabel::before {
+  background-color: #fff;
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  left: 5px;
+}
+.radio-rabel::after {
+  background-color: black;
+  border-radius: 50%;
+  opacity: 0;
+  width: 16px;
+  height: 16px;
+  left: 17px
+}
+.radio:checked + .radio-rabel::after {
+  opacity: 1;
+}
+.radio {
+  position: absolute;
+  white-space: nowrap;
+  border: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  overflow: hidden;
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  padding: 0;
+}
+
+.require-mark {
+  color: red;
+  font-size: 18px;
+}
+
+.confirm-btn {
+  border-radius: 6px;
+  margin: 32px auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 200px;
+  display: block;
+  letter-spacing: 0.05em;
+  background: black;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.error{
+  color: red;
+  margin-top: 10px;
+}
+.error-postcode{
+  margin-left: 10%;
+}
